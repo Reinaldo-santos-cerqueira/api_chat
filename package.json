@@ -1,0 +1,27 @@
+{
+  "name": "backend_chat-app",
+  "version": "1.0.0",
+  "description": "API for app chat ",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": "18.x || 16.x"
+  },
+  "scripts": {
+    "dev": "nodemon ./src/server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3",
+    "nodemon": "^2.0.22",
+    "socket.io": "^4.6.1"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ]
+}
