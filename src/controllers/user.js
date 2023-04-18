@@ -152,7 +152,7 @@ module.exports.getAllContacts = async (req, res, next) => {
     }
 }
 
-module.exports.getTest = async () => {
+module.exports.getTest = async (req, res, next) => {
     return res.status(200).json({
         error: false,
         status: 200,
