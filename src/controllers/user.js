@@ -151,3 +151,11 @@ module.exports.getAllContacts = async (req, res, next) => {
         next(ex)
     }
 }
+
+module.exports.getTest = async () => {
+    return res.status(200).json({
+        error: false,
+        status: 200,
+        message: 'Teste'
+    })
+}
