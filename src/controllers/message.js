@@ -18,7 +18,7 @@ module.exports.addMessage = async (req, res, next) => {
                 message: 'Message added sucessfully'
             })
         }
-        return res.status(200).json({
+        return res.status(400).json({
             error: true,
             status: 400,
             message: 'Failed to add message to the database'
