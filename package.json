@@ -2,7 +2,6 @@
   "name": "backend_chat-app",
   "version": "1.0.0",
   "description": "API for app chat ",
-  "main": "server.js",
   "license": "MIT",
   "engines": {
     "node": "18.x || 16.x"
